@@ -210,6 +210,9 @@ __marimo__/
 *.db
 *.sqlite3
 
+# Unignore frontend source directories shadowed by Python ignores above
+!frontend/lib/
+
 # Node.js
 node_modules/
 npm-debug.log*
